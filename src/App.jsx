@@ -1,5 +1,6 @@
 import Button from "./components/Button";
 import Title from "./components/Title";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -81,6 +82,7 @@ function App() {
           <Button color='danger' />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
